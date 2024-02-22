@@ -6,8 +6,8 @@ from flask import Flask, request
 app = Flask(__name__)
 
 # Configuración de la aplicación y permisos
-client_id = '1184c22b-1a3d-4c43-9775-3c6581b20dbf'
-client_secret = '-Sj8Q~6ZPCF3VcjBmA_foYM-inzOzSF7vyueNb4t'
+client_id = ''
+client_secret = ''
 scope = ['Calendars.ReadWrite']
 
 # URL de la API de Graph para trabajar con eventos en el calendario
